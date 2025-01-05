@@ -1,0 +1,10 @@
+1>Create immutable List in java
+List<String> l2  = Collections.unmodifiableList(l1);//java8
+List<String> immutable = List.of("ABc","DEF");
+List<String>  list = Arrays.asList("A","B","C");
+2>Create immutable List in java
+Set<String> set2 = Collections.unmodifiableSet(s1);
+Set<String>  s2 = Set.of("A","B","C");
+3>Create immutable Map in java
+Map<String,Integer> map1 = Collections.unmodifiableMap(map);
+Map<String,Integer> map2 = Map.of("a",2,"b",1);
